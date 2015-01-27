@@ -1,7 +1,15 @@
 {
-    "name": "netgen/birthday",
-    "type": "netgen-legacy-extension",
-    "require": {
-        "netgen/netgen-legacy-installer": "*"
+  "name": "netgen/birthday",
+  "description": "Netgen Birthday bundle extension for eZ Publish legacy",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Netgen",
+      "homepage": "http://www.netgenlabs.com"
     }
+  ],
+  "require": {
+	"netgen/netgen-legacy-installer": "*"
+  }
 }
+
