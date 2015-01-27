@@ -1,0 +1,7 @@
+{
+    "name": "netgen/birthday",
+    "type": "netgen-legacy-extension",
+    "require": {
+        "netgen/netgen-legacy-installer": "*"
+    }
+}
