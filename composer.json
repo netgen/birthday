@@ -1,6 +1,6 @@
 {
   "name": "netgen/birthday",
-  "description": "Netgen Birthday bundle extension for eZ Publish legacy",
+  "description": "Netgen Birthday extension for dates before 1970 in eZ Publish legacy",
   "license": "GPL-2.0",
   "authors": [
     {
@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-	"netgen/netgen-legacy-installer": "*"
+	"ezsystems/ezpublish-legacy-installer": "*"
   }
 }
 
