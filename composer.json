@@ -1,15 +1,19 @@
 {
-  "name": "netgen/birthday",
-  "description": "Netgen Birthday extension for dates before 1970 in eZ Publish legacy",
-  "license": "GPL-2.0",
-  "authors": [
-    {
-      "name": "Netgen",
-      "homepage": "http://www.netgenlabs.com"
+    "name": "netgen/birthday",
+    "description": "This datatype stores the date in the format of YYYY-MM-DD in the data_text field",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "xrow GmbH",
+            "homepage": "http://www.xrow.de"
+        },
+        {
+            "name": "Netgen",
+            "homepage": "http://www.netgenlabs.com"
+        }
+    ],
+    "require": {
+        "ezsystems/ezpublish-legacy-installer": "*"
     }
-  ],
-  "require": {
-	"ezsystems/ezpublish-legacy-installer": "*"
-  }
 }
 
