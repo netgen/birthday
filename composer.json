@@ -1,6 +1,7 @@
 {
     "name": "netgen/birthday",
     "description": "This datatype stores the date in the format of YYYY-MM-DD in the data_text field",
+    "type": "ezpublish-legacy-extension",
     "license": "GPL-2.0",
     "authors": [
         {
@@ -14,6 +15,9 @@
     ],
     "require": {
         "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "birthday"
     }
 }
 
