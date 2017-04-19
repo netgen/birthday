@@ -1,6 +1,6 @@
 <?php
 
-class eZBirthdayHandler extends BaseHandler
+class eZBirthdayCsvHandler extends BaseHandler
 {
     public function exportAttribute( &$attribute )
     {
