@@ -2,7 +2,7 @@
 
 class eZBirthday
 {
-    function eZBirthday( $birthday = array() )
+    function __construct( $birthday = array() )
     {
         if ( is_array( $birthday ) and count( $birthday ) > 0 )
         {
